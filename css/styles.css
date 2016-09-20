@@ -202,3 +202,15 @@ html[xmlns] .clearfix {
 .simple-map-directive .marker.highlighted {
   background-color: #f33;
 }
+
+.confirm {
+  font-size: 1.5em;
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  left: 50%;
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 8px 16px #333;
+}
