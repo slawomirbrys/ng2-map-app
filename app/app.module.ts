@@ -13,6 +13,7 @@ import {MapSearchPageComponent} from "./map-search-page/map-search-page.componen
 import {GenericService} from "./services/generic.service";
 import {GoogleMapService} from "./services/google-map.service";
 import {HeroService} from "./services/hero.service";
+import {DataTableComponent} from "./data-table-page/data-table.component";
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import {HeroService} from "./services/hero.service";
   declarations: [
     AppComponent,
     DashboardComponent,
+    DataTableComponent,
     DataTablePageComponent,
     GoogleMapPageComponent,
     MapSearchPageComponent

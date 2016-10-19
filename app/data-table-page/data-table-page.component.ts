@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {HeroService} from "../services/hero.service";
 import {Hero} from "../models/hero";
+import {ITableHeader} from "./ITableHeader";
 
 @Component({
   selector: 'data-table-page',
@@ -10,7 +11,7 @@ export class DataTablePageComponent {
 
   heroes:Hero[];
   selectedHero:Hero;
-  tableHeaders:Object[];
+  tableHeaders:ITableHeader[];
 
   constructor(private _heroesService:HeroService) {
     this.tableHeaders = [
